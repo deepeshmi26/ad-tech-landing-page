@@ -1,12 +1,16 @@
-import LandingPage from "@/components/LandingPage";
-import Navbar from "@/components/Navbar";
+import LandingSection from "@/pages/LandingSection";
+import Navbar from "@/components/layout/Navbar";
 import Image from "next/image";
+import FeatureSection from "@/pages/FeatureSection";
+import SolutionSection from "@/pages/SolutionSection";
 
 export default function Home() {
   return (
     <div className=" min-h-screen ">
       <Navbar />
-      <LandingPage />
+      <LandingSection />
+      <FeatureSection />
+      <SolutionSection />
     </div>
   );
 }
