@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/Navbar";
 import Image from "next/image";
 import FeatureSection from "@/pages/FeatureSection";
 import SolutionSection from "@/pages/SolutionSection";
+import CaseStudySection from "@/pages/CaseStudySection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <LandingSection />
       <FeatureSection />
       <SolutionSection />
+      <CaseStudySection />
     </div>
   );
 }
