@@ -19,9 +19,9 @@ const TestimonialCard = (props: Props) => {
           src={"https://placehold.co/100x48"}
         />
         <p className=" text-lg">
-          "Smartly’s Gen AI has been a game changer as it enables the
+          Smartlys Gen AI has been a game changer as it enables the
           personalization of the lower funnel creatives and provides a
-          consistent creative approach across the full funnel.”
+          consistent creative approach across the full funnel
         </p>
         <div className="flex flex-row gap-2">
           <div>

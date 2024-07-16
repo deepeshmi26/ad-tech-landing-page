@@ -17,9 +17,9 @@ const CaseStudyBigCard = (props: Props) => {
           <span className="text-Electric-Violet">Creative</span>
         </h2>
         <p className="text-xl">
-          "Smartly’s Gen AI has been a game changer as it enables the
+          Smartly’s Gen AI has been a game changer as it enables the
           personalization of the lower funnel creatives and provides a
-          consistent creative approach across the full funnel.”
+          consistent creative approach across the full funnel.
         </p>
         <div className="flex flex-row gap-2">
           <div>
