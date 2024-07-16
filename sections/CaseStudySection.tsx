@@ -3,9 +3,9 @@ import React from "react";
 
 type Props = {};
 
-const FeatureSection = (props: Props) => {
+const CaseStudySection = (props: Props) => {
   return (
-    <div className="flex flex-col mx-auto items-center justify-center px-8 max-w-[1500px]">
+    <div className="flex flex-col items-center justify-center px-8">
       <h2 className="my-24 max-w-[1000px] text-4xl lg:text-5xl text-center leading-[3rem] tracking-tight font-semibold  ">
         <span className="text-Mardi-Gras">
           Achieve better campaign performance and business results{" "}
@@ -24,4 +24,4 @@ const FeatureSection = (props: Props) => {
   );
 };
 
-export default FeatureSection;
+export default CaseStudySection;
