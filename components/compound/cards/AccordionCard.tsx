@@ -11,7 +11,7 @@ const imageLoader = ({ src }: { src: string }) => {
 
 const AccordionCard = (props: Props) => {
   return (
-    <div className="flex flex-row  gap-8">
+    <div className="flex flex-col md:flex-row  gap-8">
       <div className="flex basis-1/2 flex-col gap-4 text-2xl">
         <p className=" font-semibold">
           Repetitive campaign management tasks across multiple platforms

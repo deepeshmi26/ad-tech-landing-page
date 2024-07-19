@@ -8,7 +8,7 @@ type Props = {};
 
 const CaseStudyBigCard = (props: Props) => {
   return (
-    <div className="flex flex-row gap-[120px] px-12 py-4 rounded-3xl border border-Electric-Violet">
+    <div className="flex flex-col md:flex-row gap-10 md:gap-[120px] px-12 py-4 rounded-3xl border border-Electric-Violet">
       <div className="basis-2/3 flex flex-col gap-10">
         <h2 className="max-w-[1000px] text-5xl text-left leading-[3rem] tracking-tight font-semibold  ">
           <span className="text-Mardi-Gras">

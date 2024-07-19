@@ -11,7 +11,7 @@ const imageLoader = ({ src }: { src: string }) => {
 
 const FeatureCard = (props: Props) => {
   return (
-    <div className="flex flex-row even:flex-row-reverse gap-8">
+    <div className="flex flex-col md:flex-row md:even:flex-row-reverse gap-8">
       <div className="flex basis-1/2 flex-col gap-4 text-xl">
         <h2 className="max-w-[1000px] text-5xl text-left leading-[3rem] tracking-tight font-semibold  ">
           <span className="text-Mardi-Gras">

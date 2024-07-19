@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${grotesk.variable} ${groteskWide.variable}`}>
+      <body className={`${grotesk.variable} w-dvw ${groteskWide.variable}`}>
         {children}
       </body>
     </html>

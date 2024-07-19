@@ -8,13 +8,15 @@ import TestimonialsSection from "@/pages/TestimonialsSection";
 
 export default function Home() {
   return (
-    <div className=" min-h-screen pb-10 ">
+    <div className="h-screen pb-10 overflow-auto">
       <Navbar />
-      <LandingSection />
-      <FeatureSection />
-      <SolutionSection />
-      <CaseStudySection />
-      <TestimonialsSection />
+      <div className="overflow-scroll">
+        <LandingSection />
+        <FeatureSection />
+        <SolutionSection />
+        <CaseStudySection />
+        <TestimonialsSection />
+      </div>
     </div>
   );
 }

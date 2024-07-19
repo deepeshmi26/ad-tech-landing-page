@@ -8,24 +8,24 @@ import { Button } from "../ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 const Links = [
   {
-    href: "/",
-    name: "About me",
-    id: "about-me",
+    href: "#features",
+    name: "Features",
+    id: "features",
   },
   {
-    href: "#projects",
-    name: "Projects",
-    id: "projects",
+    href: "#solutions",
+    name: "Solutions",
+    id: "solutions",
   },
   {
-    href: "#experience",
-    name: "Experience",
-    id: "experience",
+    href: "#caseStudy",
+    name: "Case study",
+    id: "caseStudy",
   },
   {
-    href: "#skills",
-    name: "Skills",
-    id: "skills",
+    href: "#testimonials",
+    name: "Testimonials",
+    id: "testimonials",
   },
 ];
 const Navbar: FC = () => {
@@ -57,24 +57,90 @@ const Navbar: FC = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   return (
-    <nav className="py-4 px-8 h-20 ">
-      <div className="gap-8 flex flex-row justify-between items-center h-full">
-        <div>
-          <div>Logo</div>
-          <div>SMARTLY</div>
+    <div className="sticky top-0 w-full z-[100] bg-white">
+      <nav className="hidden md:flex py-4 px-8 h-20 ">
+        <div className=" gap-8 flex flex-row justify-between items-center h-full">
+          <div>
+            <div>Logo</div>
+            <div>SMARTLY</div>
+          </div>
+          <div className="flex flex-row gap-8 font-semibold">
+            {Links.map((item, index) => (
+              <NextLink
+                key={index}
+                href={item.href}
+                className={cn(
+                  "text-sm font-semibold p-2 rounded-lg",
+                  `${
+                    activeSection == item.href
+                      ? "bg-purple-50 text-purple-600"
+                      : ""
+                  }`
+                )}
+                passHref
+                onClick={() => setActiveSection(item.href)}
+              >
+                {item.name}
+              </NextLink>
+            ))}
+          </div>
+          <div className="h-full">
+            <Button className="bg-Electric-Violet rounded-full h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
+              Get Demo
+            </Button>
+          </div>
         </div>
-        <div className="flex flex-row gap-8 font-semibold">
-          <div>Solutions</div>
-          <div>Platform</div>
-          <div>Testimonials</div>
+      </nav>
+      <nav className="flex md:hidden w-full py-4 px-8 h-12 ">
+        <div className="w-full  gap-8 flex flex-row justify-between items-center h-full">
+          <div>
+            <div>Small Logo</div>
+          </div>
+          <Sheet
+            open={isDrawerOpen}
+            onOpenChange={() => setIsDrawerOpen((val) => !val)}
+          >
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon">
+                <Image src="/hamburger.png" alt="menu" width={20} height={20} />
+              </Button>
+            </SheetTrigger>
+            <SheetContent className="w-[200px] sm:w-[200px]" side={"right"}>
+              <div className="flex h-full flex-col justify-between">
+                <div className="flex flex-col">
+                  {Links.map((item, index) => (
+                    <NextLink
+                      key={index}
+                      href={item.href}
+                      className={cn(
+                        "text-sm font-semibold p-2 rounded-lg",
+                        `${
+                          activeSection == item.href
+                            ? "bg-purple-50 text-purple-600"
+                            : ""
+                        }`
+                      )}
+                      passHref
+                      onClick={() => {
+                        setActiveSection(item.href);
+                        setIsDrawerOpen(false);
+                      }}
+                    >
+                      {item.name}
+                    </NextLink>
+                  ))}
+                </div>
+                <div className="">
+                  <Button className="bg-Electric-Violet rounded-full h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
+                    Get Demo
+                  </Button>
+                </div>
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
-        <div className="h-full">
-          <Button className="bg-Electric-Violet rounded-full h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
-            Get Demo
-          </Button>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
 

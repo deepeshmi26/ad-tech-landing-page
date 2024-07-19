@@ -11,10 +11,10 @@ const LandingSection = (props: Props) => {
   return (
     <>
       <div className="bg-Black-Russian px-8 py-16 w-full text-white ">
-        <div className=" max-w-[1220px] mx-auto grid md:grid-cols-2">
+        <div className=" max-w-[1220px] mx-auto grid  md:grid-cols-2">
           <section className="flex flex-col gap-8 justify-center max-w-[500px]">
             {/* <div>Social links</div> */}
-            <h1 className="text-6xl font-bold leading-[70px]">
+            <h1 className="text-6xl mb-5 font-bold leading-[70px]">
               <span>Be where your consumers are</span>{" "}
               <TextCarousel className="text-Turbo" />
             </h1>
@@ -67,7 +67,7 @@ const TextCarousel: React.FC<TextCarouselProps> = ({ className }) => {
       <AnimatePresence initial={false}>
         <motion.div
           key={index}
-          initial={{ y: "100%", opacity: 0 }}
+          initial={{ y: "50%", opacity: 0 }}
           animate={{ y: "0%", opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}
           transition={{ duration: 0.5 }}

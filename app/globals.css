@@ -66,4 +66,7 @@
   body {
     @apply bg-background text-foreground font-grotesk antialiased;
   }
+  body[data-scroll-locked] {
+    margin-right: 0px !important
+  }
 }
