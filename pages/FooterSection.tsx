@@ -45,7 +45,7 @@ function Form() {
     website: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -53,7 +53,7 @@ function Form() {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     const requestOptions = {
       method: "POST",
@@ -86,7 +86,13 @@ function Form() {
         });
       }
     } catch (error) {
-      console.error("Error submitting form", error);
+      toast({
+        description: (
+          <div className="text-red-500">
+            Failed to send message. Please try again.
+          </div>
+        ),
+      });
     }
   };
 
