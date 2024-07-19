@@ -34,35 +34,37 @@ const Navbar: FC = () => {
   const [activeSection, setActiveSection] = useState(Links[0].href);
   // const isActive = (path: string) => pathname === path;
 
-  const handleScroll = () => {
-    let lastActiveElement = null;
-    Links.forEach((link) => {
-      const element = document.getElementById(link.id);
-      let elememtOffset = element?.offsetTop;
-      const scrollPosition = window.scrollY;
-      if (elememtOffset != null && scrollPosition > elememtOffset) {
-        lastActiveElement = link.href;
-      }
-    });
-    if (lastActiveElement) setActiveSection(lastActiveElement);
-  };
+  // const handleScroll = () => {
+  //   let lastActiveElement = null;
+  //   Links.forEach((link) => {
+  //     const element = document.getElementById(link.id);
+  //     let elememtOffset = element?.offsetTop;
+  //     const scrollPosition = window.scrollY;
+  //     if (elememtOffset != null && scrollPosition > elememtOffset) {
+  //       lastActiveElement = link.href;
+  //     }
+  //   });
+  //   if (lastActiveElement) setActiveSection(lastActiveElement);
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 w-full z-[100] bg-white">
+    <div className="sticky top-0 w-full z-10 bg-white shadow-xl">
       <nav className="hidden md:flex py-4 px-8 h-20 ">
-        <div className=" gap-8 flex flex-row justify-between items-center h-full">
+        <div className=" gap-8 flex flex-row w-full justify-between items-center h-full">
           <div>
-            <div>Logo</div>
-            <div>SMARTLY</div>
+            <NextLink href="#home">
+              <div>Logo</div>
+              <div>SMARTLY</div>
+            </NextLink>
           </div>
           <div className="flex flex-row gap-8 font-semibold">
             {Links.map((item, index) => (
@@ -91,10 +93,12 @@ const Navbar: FC = () => {
           </div>
         </div>
       </nav>
-      <nav className="flex md:hidden w-full py-4 px-8 h-12 ">
+      <nav className="flex md:hidden w-full py-4 px-8 h-16">
         <div className="w-full  gap-8 flex flex-row justify-between items-center h-full">
           <div>
-            <div>Small Logo</div>
+            <NextLink href="#home">
+              <div>Small Logo</div>
+            </NextLink>
           </div>
           <Sheet
             open={isDrawerOpen}

@@ -5,10 +5,11 @@ import FeatureSection from "@/pages/FeatureSection";
 import SolutionSection from "@/pages/SolutionSection";
 import CaseStudySection from "@/pages/CaseStudySection";
 import TestimonialsSection from "@/pages/TestimonialsSection";
+import FooterSection from "@/pages/FooterSection";
 
 export default function Home() {
   return (
-    <div className="h-screen pb-10 overflow-auto">
+    <div className="h-screen overflow-auto">
       <Navbar />
       <div className="overflow-scroll">
         <LandingSection />
@@ -16,6 +17,7 @@ export default function Home() {
         <SolutionSection />
         <CaseStudySection />
         <TestimonialsSection />
+        <FooterSection />
       </div>
     </div>
   );
