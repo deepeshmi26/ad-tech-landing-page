@@ -51,8 +51,8 @@ const FeatureSection = (props: Props) => {
         {/* <span className="text-primary">What we offer&nbsp;</span> */}
       </h2>
       <div className="flex flex-col gap-[120px]">
-        {features.map((feature) => (
-          <FeatureCard {...feature} />
+        {features.map((feature, index) => (
+          <FeatureCard key={index} {...feature} />
         ))}
       </div>
     </div>

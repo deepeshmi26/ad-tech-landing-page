@@ -37,8 +37,11 @@ const FeatureCard = ({
           role="list"
           className="c-paragraph is--font-color-ffffff hero-list-item l-margin-bottom-35px is--font-color--1c002c star-purple"
         >
-          {list?.map((item) => (
-            <li className="mb-1 bg-[url('https://cdn.prod.website-files.com/63d671dfba7daa79b745ce98/65fc91088ae18748f6b701ad_purple-star.svg')] bg-[length:24px_24px] bg-no-repeat pl-8 narrow product-bullets purple-star purple-star sdfsf bullet-purple">
+          {list?.map((item, index) => (
+            <li
+              key={index}
+              className="mb-1 bg-[url('https://cdn.prod.website-files.com/63d671dfba7daa79b745ce98/65fc91088ae18748f6b701ad_purple-star.svg')] bg-[length:24px_24px] bg-no-repeat pl-8 narrow product-bullets purple-star purple-star sdfsf bullet-purple"
+            >
               {item}
             </li>
           ))}

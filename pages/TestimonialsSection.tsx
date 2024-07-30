@@ -27,8 +27,8 @@ const TestimonialsSection = (props: Props) => {
         <span className="text-Mardi-Gras">What our client says</span>
       </h2>
       <div className="flex flex-wrap items-center justify-center">
-        {testimonial.map((val) => (
-          <TestimonialCard {...val} />
+        {testimonial.map((val, index) => (
+          <TestimonialCard key={index} {...val} />
         ))}
       </div>
     </div>
