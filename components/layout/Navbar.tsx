@@ -9,7 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 const Links = [
   {
     href: "#features",
-    name: "Features",
+    name: "What we offer",
     id: "features",
   },
   // {
