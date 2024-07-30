@@ -12,6 +12,7 @@ const testimonial = [
   {
     text: "It’s been nice working with AdYugo. They opened more demand sources to increase our inventory yield without SDK integration. We are hopeful the business will keep the momentum in months and years to follow.",
     name: "Kaushik Patel",
+    img: "/testimonial-1.jpeg",
   },
 ];
 

@@ -10,9 +10,15 @@ type TestimonialProps = {
   text?: string;
   name?: string;
   reviewerInfo?: string;
+  img?: string;
 };
 
-const TestimonialCard = ({ text, name, reviewerInfo }: TestimonialProps) => {
+const TestimonialCard = ({
+  text,
+  name,
+  reviewerInfo,
+  img,
+}: TestimonialProps) => {
   return (
     <div className="flex flex-row gap-[120px] px-12 py-4 rounded-3xl border border-Electric-Violet md:max-w-[450px]">
       <div className=" flex flex-col gap-8">
@@ -26,16 +32,18 @@ const TestimonialCard = ({ text, name, reviewerInfo }: TestimonialProps) => {
         />
         {text && <p className=" text-lg">{text}</p>}
         <div className="flex flex-row gap-2">
-          <div>
-            <Image
-              loader={imageLoader}
-              height={48}
-              className="rounded-full"
-              width={48}
-              alt="profile pic"
-              src={"https://placehold.co/48x48"}
-            />
-          </div>
+          {img && (
+            <div>
+              <Image
+                loader={imageLoader}
+                height={48}
+                className="rounded-full"
+                width={48}
+                alt="profile pic"
+                src={img}
+              />
+            </div>
+          )}
           <div className="flex flex-col justify-center">
             {name && <div className="text-primary font-semibold">{name}</div>}
             {reviewerInfo && <div className="text-sm">{reviewerInfo}</div>}
