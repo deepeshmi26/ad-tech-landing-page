@@ -35,7 +35,7 @@ const SolutionSection = (props: Props) => {
         <Accordion
           type="single"
           collapsible
-          className="w-full bg-Electric-Violet rounded-2xl px-4 md:px-[8%]  text-secondary"
+          className="w-full bg-primary rounded-2xl px-4 md:px-[8%]  text-secondary"
         >
           {solutionsSectionData.map((data, index) => (
             <AccordionItem key={index} value={String(index)}>
@@ -51,7 +51,7 @@ const SolutionSection = (props: Props) => {
           ))}
         </Accordion>
       </div>
-      <Button className=" my-12 bg-Electric-Violet rounded-none rounded-tr-3xl hover:bg-Turbo hover:text-primary transition-all rounded-bl-3xl hover:rounded-3xl h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
+      <Button className=" my-12 bg-primary rounded-none rounded-tr-3xl hover:bg-secondary hover:text-primary transition-all rounded-bl-3xl hover:rounded-3xl h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
         Get Demo
       </Button>
     </div>

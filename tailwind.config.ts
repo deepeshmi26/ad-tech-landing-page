@@ -26,8 +26,9 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#08a0da",
           foreground: "hsl(var(--primary-foreground))",
+          light: "#faf5ff",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -42,7 +43,7 @@ const config = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
+          DEFAULT: "#f08d03",
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
@@ -79,7 +80,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        grotesk: ["var(--font-grotesk)"],
+        grotesk: ["var(--font-grotesk)", "sans-serif"],
         grotesk_wide: ["var(--font-grotesk_wide)"],
       },
     },

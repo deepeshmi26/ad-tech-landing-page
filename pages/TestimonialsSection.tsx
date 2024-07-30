@@ -8,6 +8,13 @@ import React from "react";
 
 type Props = {};
 
+const testimonial = [
+  {
+    text: "It’s been nice working with AdYugo. They opened more demand sources to increase our inventory yield without SDK integration. We are hopeful the business will keep the momentum in months and years to follow.",
+    name: "Kaushik Patel",
+  },
+];
+
 const TestimonialsSection = (props: Props) => {
   return (
     <div
@@ -19,10 +26,10 @@ const TestimonialsSection = (props: Props) => {
           Discover How Smartly Can Elevate Your Team’s Creative Innovation
         </span>
       </h2>
-      <div className="grid grid-rows-auto md:grid-cols-3 gap-4">
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
+      <div className="flex flex-wrap items-center justify-center">
+        {testimonial.map((val) => (
+          <TestimonialCard {...val} />
+        ))}
       </div>
     </div>
   );

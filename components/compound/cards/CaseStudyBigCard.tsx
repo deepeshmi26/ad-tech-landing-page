@@ -14,7 +14,7 @@ const CaseStudyBigCard = (props: Props) => {
           <span className="text-Mardi-Gras">
             Quickly Generate and Optimize{" "}
           </span>
-          <span className="text-Electric-Violet">Creative</span>
+          <span className="text-primary">Creative</span>
         </h2>
         <p className="text-xl">
           Smartly’s Gen AI has been a game changer as it enables the
@@ -33,14 +33,12 @@ const CaseStudyBigCard = (props: Props) => {
             />
           </div>
           <div className="flex flex-col items-start">
-            <div className="text-Electric-Violet font-semibold">
-              Deepesh Mitra
-            </div>
+            <div className="text-primary font-semibold">Deepesh Mitra</div>
             <div className="text-sm">Software engineer 2</div>
           </div>
         </div>
         <div>
-          <Button className="bg-Electric-Violet rounded-full h-full px-7 py-4 font-grotesk text-base font-semibold">
+          <Button className="rounded-full h-full px-7 py-4 text-base font-semibold">
             View case study
           </Button>
         </div>

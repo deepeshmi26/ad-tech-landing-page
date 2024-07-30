@@ -6,6 +6,8 @@ import SolutionSection from "@/pages/SolutionSection";
 import CaseStudySection from "@/pages/CaseStudySection";
 import TestimonialsSection from "@/pages/TestimonialsSection";
 import FooterSection from "@/pages/FooterSection";
+import StatsSection from "@/pages/StatsSection";
+import FormSection from "@/pages/FormSection";
 
 export default function Home() {
   return (
@@ -14,9 +16,11 @@ export default function Home() {
       <div className="overflow-scroll">
         <LandingSection />
         <FeatureSection />
-        <SolutionSection />
-        <CaseStudySection />
+        <StatsSection />
+        {/* <SolutionSection /> */}
+        {/* <CaseStudySection /> */}
         <TestimonialsSection />
+        <FormSection />
         <FooterSection />
       </div>
     </div>

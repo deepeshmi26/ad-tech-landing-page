@@ -6,9 +6,15 @@ import Image from "next/image";
 import React from "react";
 type Props = {};
 
-const TestimonialCard = (props: Props) => {
+type TestimonialProps = {
+  text?: string;
+  name?: string;
+  reviewerInfo?: string;
+};
+
+const TestimonialCard = ({ text, name, reviewerInfo }: TestimonialProps) => {
   return (
-    <div className="flex flex-row gap-[120px] px-12 py-4 rounded-3xl border border-Electric-Violet">
+    <div className="flex flex-row gap-[120px] px-12 py-4 rounded-3xl border border-Electric-Violet md:max-w-[450px]">
       <div className=" flex flex-col gap-8">
         <Image
           loader={imageLoader}
@@ -18,11 +24,7 @@ const TestimonialCard = (props: Props) => {
           alt="profile pic"
           src={"https://placehold.co/100x48"}
         />
-        <p className=" text-lg">
-          Smartlys Gen AI has been a game changer as it enables the
-          personalization of the lower funnel creatives and provides a
-          consistent creative approach across the full funnel
-        </p>
+        {text && <p className=" text-lg">{text}</p>}
         <div className="flex flex-row gap-2">
           <div>
             <Image
@@ -34,11 +36,9 @@ const TestimonialCard = (props: Props) => {
               src={"https://placehold.co/48x48"}
             />
           </div>
-          <div className="flex flex-col items-start">
-            <div className="text-Electric-Violet font-semibold">
-              Deepesh Mitra
-            </div>
-            <div className="text-sm">Software engineer 2</div>
+          <div className="flex flex-col justify-center">
+            {name && <div className="text-primary font-semibold">{name}</div>}
+            {reviewerInfo && <div className="text-sm">{reviewerInfo}</div>}
           </div>
         </div>
       </div>

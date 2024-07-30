@@ -12,16 +12,16 @@ const Links = [
     name: "Features",
     id: "features",
   },
-  {
-    href: "#solutions",
-    name: "Solutions",
-    id: "solutions",
-  },
-  {
-    href: "#caseStudy",
-    name: "Case study",
-    id: "caseStudy",
-  },
+  // {
+  //   href: "#solutions",
+  //   name: "Solutions",
+  //   id: "solutions",
+  // },
+  // {
+  //   href: "#caseStudy",
+  //   name: "Case study",
+  //   id: "caseStudy",
+  // },
   {
     href: "#testimonials",
     name: "Testimonials",
@@ -62,8 +62,12 @@ const Navbar: FC = () => {
         <div className=" gap-8 flex flex-row w-full justify-between items-center h-full">
           <div>
             <NextLink href="#home">
-              <div>Logo</div>
-              <div>SMARTLY</div>
+              <Image
+                src="/logo.png"
+                width={275 / 2}
+                height={87 / 2}
+                alt="Adyugo"
+              />
             </NextLink>
           </div>
           <div className="flex flex-row gap-8 font-semibold">
@@ -75,7 +79,7 @@ const Navbar: FC = () => {
                   "text-sm font-semibold p-2 rounded-lg",
                   `${
                     activeSection == item.href
-                      ? "bg-purple-50 text-purple-600"
+                      ? "bg-primary-light text-primary"
                       : ""
                   }`
                 )}
@@ -87,9 +91,14 @@ const Navbar: FC = () => {
             ))}
           </div>
           <div className="h-full">
-            <Button className="bg-Electric-Violet rounded-full h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
-              Get Demo
-            </Button>
+            <NextLink href="#contact-us">
+              <Button
+                variant={"standout"}
+                className="rounded-full h-full px-7 py-4 font-medium text-xl"
+              >
+                Get Started
+              </Button>
+            </NextLink>
           </div>
         </div>
       </nav>
@@ -97,7 +106,13 @@ const Navbar: FC = () => {
         <div className="w-full  gap-8 flex flex-row justify-between items-center h-full">
           <div>
             <NextLink href="#home">
-              <div>Small Logo</div>
+              <Image
+                src="/logo.png"
+                width={275 / 2}
+                height={87 / 2}
+                alt="Adyugo"
+              />
+              {/* <div>Small Logo</div> */}
             </NextLink>
           </div>
           <Sheet
@@ -120,7 +135,7 @@ const Navbar: FC = () => {
                         "text-sm font-semibold p-2 rounded-lg",
                         `${
                           activeSection == item.href
-                            ? "bg-purple-50 text-purple-600"
+                            ? "bg-primary-light text-primary"
                             : ""
                         }`
                       )}
@@ -135,9 +150,14 @@ const Navbar: FC = () => {
                   ))}
                 </div>
                 <div className="">
-                  <Button className="bg-Electric-Violet rounded-full h-full px-7 py-4 font-grotesk_wide text-base font-semibold">
-                    Get Demo
-                  </Button>
+                  <NextLink href="#contact-us">
+                    <Button
+                      variant={"standout"}
+                      className="rounded-full h-full px-7 py-4 font-medium text-xl"
+                    >
+                      Get Started
+                    </Button>
+                  </NextLink>
                 </div>
               </div>
             </SheetContent>
