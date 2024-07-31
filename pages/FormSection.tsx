@@ -47,7 +47,7 @@ function Form() {
 
     try {
       const response = await fetch(
-        "http://54.161.51.227/query/create/",
+        "https://54.161.51.227/query/create/",
         requestOptions
       );
       if (response.ok) {
