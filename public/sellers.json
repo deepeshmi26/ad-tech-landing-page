@@ -1,0 +1,91 @@
+{
+    "contact_email": "business@adyugo.com",
+    "contact_address": "C/o Kathagada Sahi, Choudhury Bazar, Cuttack, Orissa - 753001, India",
+    "version": "1.0",
+    "sellers": [
+ {
+      "Seller_id": "1004",
+      "Name": "Supercent",
+      "Domain": "supercent.io",
+      "Seller_type": "Publisher"
+    },
+    {
+      "Seller_id": "1101",
+      "Name": "Sanket Kathirya (PortInfo)",
+      "Domain": "https://chotuvptxt.blogspot.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1102",
+      "Name": "Priyank",
+      "Domain": "https://riverviewinfosoftinc.blogspot.com/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1103",
+      "Name": "Priyank 2",
+      "Domain": "https://websiteofmahadevappstore.blogspot.com/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1104",
+      "Name": "Diversity Infotech",
+      "Domain": "https://techllcweb.blogspot.com/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1105",
+      "Name": "Sagar (Invica Infoteh)",
+      "Domain": "https://i918bd728.app-ads-txt.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1106",
+      "Name": "chatme",
+      "Domain": "https://chatmeet.space/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1123",
+      "Name": "Graphical Arena Games",
+      "Domain": "https://videotapapp.site/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1125",
+      "Name": "Array Infotech",
+      "Domain": "https://arrayinfotech.blogspot.com/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1126",
+      "Name": "My Creation",
+      "Domain": "https://emicalculatorapps.xyz/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1127",
+      "Name": "Photo Gallery",
+      "Domain": "https://buttonapps.space/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1128",
+      "Name": "CZ Solution",
+      "Domain": "https://newapifromdev.com/",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1129",
+      "Name": "anniversary video maker",
+      "Domain": "https://anniversaryvideomaker.blogspot.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "Seller_id": "1130",
+      "Name": "EMI Calculator",
+      "Domain": "https://fusionapps.space",
+      "seller_type": "PUBLISHER"
+    }
+  ]
+}
