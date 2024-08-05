@@ -20,7 +20,7 @@ const TestimonialCard = ({
   img,
 }: TestimonialProps) => {
   return (
-    <div className="flex flex-1 flex-row gap-[120px] max-h-[350px] px-12 py-4 rounded-3xl border border-Electric-Violet md:max-w-[450px]">
+    <div className="flex flex-1 flex-row gap-[120px] max-h-[450px] px-12 py-4 rounded-3xl border border-Electric-Violet md:max-w-[450px]">
       <div className=" flex flex-col gap-8">
         {/* <Image
           loader={imageLoader}
