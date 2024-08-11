@@ -47,7 +47,7 @@ function Form() {
 
     try {
       const response = await fetch(
-        "https://54.161.51.227/query/create/",
+        "https://www.backend.adyugo.com/query/create/",
         requestOptions
       );
       if (response.ok) {
