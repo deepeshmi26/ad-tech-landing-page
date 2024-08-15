@@ -17,7 +17,7 @@ const FooterSection = (props: Props) => {
         className="bg-gradient-to-r from-blue-800 to-indigo-900 px-8 py-8  text-white mt-8 gap-8 flex-col flex items-center justify-center w-full"
       >
         <div className="w-full flex flex-col md:flex-row gap-6">
-          <NextLink className="basis-1/3" href="#home">
+          <NextLink className="basis-1/3 min-w-40 w-2/5 md:w-auto" href="#home">
             <Image src="/logo.png" width={275} height={87} alt="Adyugo" />
           </NextLink>
           <div className=" basis-2/3 max-w-[1220px] w-full flex flex-col  justify-end gap-6">
