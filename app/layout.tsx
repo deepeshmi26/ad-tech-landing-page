@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta charSet="UTF-8"></meta>
-      <GoogleTagManager gtmId="G-CH7FRP4RVW" />
+      <GoogleTagManager gtmId="GTM-W9T36K74" />
       <body className={`${grotesk.variable} w-dvw ${groteskWide.variable}`}>
         {children}
         <Toaster />
