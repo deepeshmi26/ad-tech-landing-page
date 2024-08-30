@@ -86,6 +86,90 @@
       "Name": "EMI Calculator",
       "Domain": "https://fusionapps.space",
       "seller_type": "PUBLISHER"
-    }
+    },
+        {
+    "Name": "Arcadian Labs",
+    "Seller_id": 1003,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://arcadianlab.com/"
+  },
+  {
+    "Name": "PSV",
+    "Seller_id": 1005,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://psvgamestudio.com/"
+  },
+  {
+    "Name": "Brave Apps",
+    "Seller_id": 1131,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://jasonteaminfo.blogspot.com/ads.txt?m=1"
+  },
+  {
+    "Name": "Editor Lab",
+    "Seller_id": 1132,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://vishweshshahsol.blogspot.com/ads.txt?m=1"
+  },
+  {
+    "Name": "Ureka_anaplatform",
+    "Seller_id": 160715,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://thuvienphapluat.vn/"
+  },
+  {
+    "Name": "metrojournalonline",
+    "Seller_id": 160736,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://metrojournalonline.com/"
+  },
+  {
+    "Name": "vnxpress",
+    "Seller_id": 160708,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://vnexpress.net/"
+  },
+  {
+    "Name": "tecentech",
+    "Seller_id": 160727,
+    "seller_type": "PUBLISHER",
+    "Domain": "gameprowess.com"
+  },
+  {
+    "Name": "Bhopal Samachar",
+    "Seller_id": 160721,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://www.bhopalsamachar.com/"
+  },
+  {
+    "Name": "CricHeroes",
+    "Seller_id": 160713,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://cricheroes.com/"
+  },
+  {
+    "Name": "Ixigo",
+    "Seller_id": 160714,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://www.ixigo.com/"
+  },
+  {
+    "Name": "Narasi TV",
+    "Seller_id": 160722,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://narasi.tv/"
+  },
+  {
+    "Name": "GeoTimes",
+    "Seller_id": 160724,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://geotimes.id/"
+  },
+  {
+    "Name": "OLX",
+    "Seller_id": 160738,
+    "seller_type": "PUBLISHER",
+    "Domain": "https://www.olx.in/"
+  }
   ]
 }
