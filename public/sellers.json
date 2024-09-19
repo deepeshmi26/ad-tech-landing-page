@@ -4,178 +4,178 @@
   "version": "1.0",
   "sellers": [
     {
-      "Seller_id": "1004",
-      "Name": "Supercent",
-      "Domain": "supercent.io",
-      "Seller_type": "Publisher"
+      "seller_id": "1004",
+      "name": "Supercent",
+      "domain": "supercent.io",
+      "seller_type": "Publisher"
     },
     {
-      "Seller_id": "1101",
-      "Name": "Sanket Kathirya (PortInfo)",
-      "Domain": "https://chotuvptxt.blogspot.com",
+      "seller_id": "1101",
+      "name": "Sanket Kathirya (PortInfo)",
+      "domain": "https://chotuvptxt.blogspot.com",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1102",
-      "Name": "Priyank",
-      "Domain": "https://riverviewinfosoftinc.blogspot.com/",
+      "seller_id": "1102",
+      "name": "Priyank",
+      "domain": "https://riverviewinfosoftinc.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1103",
-      "Name": "Priyank 2",
-      "Domain": "https://websiteofmahadevappstore.blogspot.com/",
+      "seller_id": "1103",
+      "name": "Priyank 2",
+      "domain": "https://websiteofmahadevappstore.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1104",
-      "Name": "Diversity Infotech",
-      "Domain": "https://techllcweb.blogspot.com/",
+      "seller_id": "1104",
+      "name": "Diversity Infotech",
+      "domain": "https://techllcweb.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1105",
-      "Name": "Sagar (Invica Infoteh)",
-      "Domain": "https://i918bd728.app-ads-txt.com",
+      "seller_id": "1105",
+      "name": "Sagar (Invica Infoteh)",
+      "domain": "https://i918bd728.app-ads-txt.com",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1106",
-      "Name": "chatme",
-      "Domain": "https://chatmeet.space/",
+      "seller_id": "1106",
+      "name": "chatme",
+      "domain": "https://chatmeet.space/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1123",
-      "Name": "Graphical Arena Games",
-      "Domain": "https://videotapapp.site/",
+      "seller_id": "1123",
+      "name": "Graphical Arena Games",
+      "domain": "https://videotapapp.site/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1125",
-      "Name": "Array Infotech",
-      "Domain": "https://arrayinfotech.blogspot.com/",
+      "seller_id": "1125",
+      "name": "Array Infotech",
+      "domain": "https://arrayinfotech.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1126",
-      "Name": "My Creation",
-      "Domain": "https://emicalculatorapps.xyz/",
+      "seller_id": "1126",
+      "name": "My Creation",
+      "domain": "https://emicalculatorapps.xyz/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1127",
-      "Name": "Photo Gallery",
-      "Domain": "https://buttonapps.space/",
+      "seller_id": "1127",
+      "name": "Photo Gallery",
+      "domain": "https://buttonapps.space/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1128",
-      "Name": "CZ Solution",
-      "Domain": "https://newapifromdev.com/",
+      "seller_id": "1128",
+      "name": "CZ Solution",
+      "domain": "https://newapifromdev.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1129",
-      "Name": "anniversary video maker",
-      "Domain": "https://anniversaryvideomaker.blogspot.com",
+      "seller_id": "1129",
+      "name": "anniversary video maker",
+      "domain": "https://anniversaryvideomaker.blogspot.com",
       "seller_type": "PUBLISHER"
     },
     {
-      "Seller_id": "1130",
-      "Name": "EMI Calculator",
-      "Domain": "https://fusionapps.space",
+      "seller_id": "1130",
+      "name": "EMI Calculator",
+      "domain": "https://fusionapps.space",
       "seller_type": "PUBLISHER"
     },
     {
-      "Name": "Arcadian Labs",
-      "Seller_id": 1003,
+      "name": "Arcadian Labs",
+      "seller_id": 1003,
       "seller_type": "PUBLISHER",
-      "Domain": "https://arcadianlab.com/"
+      "domain": "https://arcadianlab.com/"
     },
     {
-      "Name": "PSV",
-      "Seller_id": 1005,
+      "name": "PSV",
+      "seller_id": 1005,
       "seller_type": "PUBLISHER",
-      "Domain": "https://psvgamestudio.com/"
+      "domain": "https://psvgamestudio.com/"
     },
     {
-      "Name": "Brave Apps",
-      "Seller_id": 1131,
+      "name": "Brave Apps",
+      "seller_id": 1131,
       "seller_type": "PUBLISHER",
-      "Domain": "https://jasonteaminfo.blogspot.com/ads.txt?m=1"
+      "domain": "https://jasonteaminfo.blogspot.com/ads.txt?m=1"
     },
     {
-      "Name": "Editor Lab",
-      "Seller_id": 1132,
+      "name": "Editor Lab",
+      "seller_id": 1132,
       "seller_type": "PUBLISHER",
-      "Domain": "https://vishweshshahsol.blogspot.com/ads.txt?m=1"
+      "domain": "https://vishweshshahsol.blogspot.com/ads.txt?m=1"
     },
     {
-      "Name": "Ureka_anaplatform",
-      "Seller_id": 160715,
+      "name": "Ureka_anaplatform",
+      "seller_id": 160715,
       "seller_type": "PUBLISHER",
-      "Domain": "https://thuvienphapluat.vn/"
+      "domain": "https://thuvienphapluat.vn/"
     },
     {
-      "Name": "metrojournalonline",
-      "Seller_id": 160736,
+      "name": "metrojournalonline",
+      "seller_id": 160736,
       "seller_type": "PUBLISHER",
-      "Domain": "https://metrojournalonline.com/"
+      "domain": "https://metrojournalonline.com/"
     },
     {
-      "Name": "vnxpress",
-      "Seller_id": 160708,
+      "name": "vnxpress",
+      "seller_id": 160708,
       "seller_type": "PUBLISHER",
-      "Domain": "https://vnexpress.net/"
+      "domain": "https://vnexpress.net/"
     },
     {
-      "Name": "tecentech",
-      "Seller_id": 160727,
+      "name": "tecentech",
+      "seller_id": 160727,
       "seller_type": "PUBLISHER",
-      "Domain": "gameprowess.com"
+      "domain": "gameprowess.com"
     },
     {
-      "Name": "Bhopal Samachar",
-      "Seller_id": 160721,
+      "name": "Bhopal Samachar",
+      "seller_id": 160721,
       "seller_type": "PUBLISHER",
-      "Domain": "https://www.bhopalsamachar.com/"
+      "domain": "https://www.bhopalsamachar.com/"
     },
     {
-      "Name": "CricHeroes",
-      "Seller_id": 160713,
+      "name": "CricHeroes",
+      "seller_id": 160713,
       "seller_type": "PUBLISHER",
-      "Domain": "https://cricheroes.com/"
+      "domain": "https://cricheroes.com/"
     },
     {
-      "Name": "Ixigo",
-      "Seller_id": 160714,
+      "name": "Ixigo",
+      "seller_id": 160714,
       "seller_type": "PUBLISHER",
-      "Domain": "https://www.ixigo.com/"
+      "domain": "https://www.ixigo.com/"
     },
     {
-      "Name": "Narasi TV",
-      "Seller_id": 160722,
+      "name": "Narasi TV",
+      "seller_id": 160722,
       "seller_type": "PUBLISHER",
-      "Domain": "https://narasi.tv/"
+      "domain": "https://narasi.tv/"
     },
     {
-      "Name": "GeoTimes",
-      "Seller_id": 160724,
+      "name": "GeoTimes",
+      "seller_id": 160724,
       "seller_type": "PUBLISHER",
-      "Domain": "https://geotimes.id/"
+      "domain": "https://geotimes.id/"
     },
     {
-      "Name": "OLX",
-      "Seller_id": 160738,
+      "name": "OLX",
+      "seller_id": 160738,
       "seller_type": "PUBLISHER",
-      "Domain": "https://www.olx.in/"
+      "domain": "https://www.olx.in/"
     },
     {
-      "Name": "Verve Group",
-      "Seller_id": 1133,
+      "name": "Verve Group",
+      "seller_id": 1133,
       "seller_type": "INTERMEDIARY",
-      "Domain": "https://verve.com/"
+      "domain": "https://verve.com/"
     }
   ]
 }
