@@ -176,6 +176,12 @@
       "seller_id": 1133,
       "seller_type": "INTERMEDIARY",
       "domain": "https://verve.com/"
+    },
+    {
+      "seller_id": "160703",
+      "seller_type": "PUBLISHER",
+      "domain": "reliancegames.com",
+      "name": "Reliance Games"
     }
   ]
 }
