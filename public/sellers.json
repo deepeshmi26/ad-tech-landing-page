@@ -170,6 +170,12 @@
       "Seller_id": 160738,
       "seller_type": "PUBLISHER",
       "Domain": "https://www.olx.in/"
+    },
+    {
+      "Name": "Verve Group",
+      "Seller_id": 1133,
+      "seller_type": "INTERMEDIARY",
+      "Domain": "https://verve.com/"
     }
   ]
 }
