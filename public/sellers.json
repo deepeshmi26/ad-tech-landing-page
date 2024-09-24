@@ -182,6 +182,138 @@
       "seller_type": "PUBLISHER",
       "domain": "reliancegames.com",
       "name": "Reliance Games"
+    },
+    {
+      "name": "Vasundhara infotech",
+      "seller_id": 1001,
+      "seller_type": "Direct",
+      "domain": "https://vasundhara.io/"
+    },
+    {
+      "name": "Parag 2",
+      "seller_id": 1018,
+      "seller_type": "Direct",
+      "domain": "https://kpeworld.com/"
+    },
+    {
+      "name": "Parag 5",
+      "seller_id": 1021,
+      "seller_type": "Direct",
+      "domain": "https://varnitech.co.in/"
+    },
+    {
+      "name": "Mizo studio",
+      "seller_id": 1022,
+      "seller_type": "Direct",
+      "domain": "https://www.mizostudio.com"
+    },
+    {
+      "name": "Gamovation",
+      "seller_id": 1025,
+      "seller_type": "Direct",
+      "domain": "https://www.gamovation.com/"
+    },
+    {
+      "name": "Miniclip",
+      "seller_id": 1027,
+      "seller_type": "Direct",
+      "domain": "https://miniclip.com/"
+    },
+    {
+      "name": "tutotoons",
+      "seller_id": 1029,
+      "seller_type": "Direct",
+      "domain": "https://tutotoons.com/"
+    },
+    {
+      "name": "Funvent",
+      "seller_id": 1032,
+      "seller_type": "Direct",
+      "domain": "https://funvent.cc/"
+    },
+    {
+      "name": "Idea Solution",
+      "seller_id": 1037,
+      "seller_type": "Direct",
+      "domain": "https://www.ideasolutions.it/"
+    },
+    {
+      "name": "MNO GO GAME",
+      "seller_id": 1043,
+      "seller_type": "Direct",
+      "domain": "https://mnogogames.com/"
+    },
+    {
+      "name": "Maglab",
+      "seller_id": 1045,
+      "seller_type": "Direct",
+      "domain": "https://maglab.com.tr/"
+    },
+    {
+      "name": "Playcus",
+      "seller_id": 1046,
+      "seller_type": "Direct",
+      "domain": "https://www.playcus.com/"
+    },
+    {
+      "name": "Flick Games",
+      "seller_id": 1058,
+      "seller_type": "Direct",
+      "domain": "https://www.flick.games/"
+    },
+    {
+      "name": "hashcube",
+      "seller_id": 1060,
+      "seller_type": "Direct",
+      "domain": "https://hashcube.com/"
+    },
+    {
+      "name": "Pixeland",
+      "seller_id": 1067,
+      "seller_type": "Direct",
+      "domain": "https://pxlnd.com/"
+    },
+    {
+      "name": "Tapnation",
+      "seller_id": 1073,
+      "seller_type": "Direct",
+      "domain": "https://www.tap-nation.io/"
+    },
+    {
+      "name": "Tiny Tactics",
+      "seller_id": 1076,
+      "seller_type": "Direct",
+      "domain": "https://www.tinytactics.com/"
+    },
+    {
+      "name": "Whoosa",
+      "seller_id": 1080,
+      "seller_type": "Direct",
+      "domain": "https://www.whossa.com/"
+    },
+    {
+      "name": "Playsimple",
+      "seller_id": 1081,
+      "seller_type": "Direct",
+      "domain": "https://playsimple.in/"
+    },
+    {
+      "name": "Mbit",
+      "seller_id": 1085,
+      "seller_type": "Direct",
+      "domain": "https://www.mbitmusic.in"
+    },
+    {
+      "name": "Reliance Games",
+      "seller_id": 160703,
+      "seller_type": "Direct",
+      "domain": "https://www.reliancegames.com/"
+    },
+    {
+      "name": "Frontlink",
+      "seller_id": 160772,
+      "seller_type": "Direct",
+      "domain": "https://frontlinktechnology.com/"
     }
   ]
 }
