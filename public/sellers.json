@@ -314,6 +314,90 @@
       "seller_id": 160772,
       "seller_type": "Direct",
       "domain": "https://abaldha.blogspot.com"
+    },
+    {
+      "name": "Homa Games",
+      "seller_id": 1023,
+      "seller_type": "Direct",
+      "domain": "https://homagames.com/app-ads.txt"
+    },
+    {
+      "name": "Popcore",
+      "seller_id": 1024,
+      "seller_type": "Direct",
+      "domain": "https://www.popcore.com/app-ads.txt"
+    },
+    {
+      "name": "Playvalve",
+      "seller_id": 1028,
+      "seller_type": "Direct",
+      "domain": "https://playvalve.com/app-ads.txt"
+    },
+    {
+      "name": "Amanotes",
+      "seller_id": 1030,
+      "seller_type": "Direct",
+      "domain": "https://www.amanotes.com/app-ads.txt"
+    },
+    {
+      "name": "Kwalee",
+      "seller_id": 1031,
+      "seller_type": "Direct",
+      "domain": "https://www.kwalee.com/app-ads.txt"
+    },
+    {
+      "name": "Mad Brain Games",
+      "seller_id": 1034,
+      "seller_type": "Direct",
+      "domain": "https://braingames.net/app-ads.txt"
+    },
+    {
+      "name": "BoomBit",
+      "seller_id": 1036,
+      "seller_type": "Direct",
+      "domain": "https://boombit.com/app-ads.txt"
+    },
+    {
+      "name": "Matchingham Games",
+      "seller_id": 1038,
+      "seller_type": "Direct",
+      "domain": "https://matchingham.gs/"
+    },
+    {
+      "name": "Vira",
+      "seller_id": 1040,
+      "seller_type": "Direct",
+      "domain": "https://www.vira.games/"
+    },
+    {
+      "name": "MixerBox",
+      "seller_id": 1042,
+      "seller_type": "Direct",
+      "domain": "https://www.mixerbox.com/"
+    },
+    {
+      "name": "Cleverside",
+      "seller_id": 1044,
+      "seller_type": "Direct",
+      "domain": "https://www.cleverside.com/"
+    },
+    {
+      "name": "Boomhits",
+      "seller_id": 1047,
+      "seller_type": "Direct",
+      "domain": "https://boomhits.com/app-ads.txt"
+    },
+    {
+      "name": "Azur",
+      "seller_id": 1049,
+      "seller_type": "Direct",
+      "domain": "https://azurgames.com/app-ads.txt"
+    },
+    {
+      "name": "Filing.pi",
+      "seller_id": 1057,
+      "seller_type": "Direct",
+      "domain": "https://samequizy.pl/"
     }
   ]
 }
