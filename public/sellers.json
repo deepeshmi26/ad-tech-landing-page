@@ -319,37 +319,37 @@
       "name": "Homa Games",
       "seller_id": 1023,
       "seller_type": "Direct",
-      "domain": "https://homagames.com/app-ads.txt"
+      "domain": "https://homagames.com"
     },
     {
       "name": "Popcore",
       "seller_id": 1024,
       "seller_type": "Direct",
-      "domain": "https://www.popcore.com/app-ads.txt"
+      "domain": "https://www.popcore.com"
     },
     {
       "name": "Playvalve",
       "seller_id": 1028,
       "seller_type": "Direct",
-      "domain": "https://playvalve.com/app-ads.txt"
+      "domain": "https://playvalve.com"
     },
     {
       "name": "Amanotes",
       "seller_id": 1030,
       "seller_type": "Direct",
-      "domain": "https://www.amanotes.com/app-ads.txt"
+      "domain": "https://www.amanotes.com"
     },
     {
       "name": "Kwalee",
       "seller_id": 1031,
       "seller_type": "Direct",
-      "domain": "https://www.kwalee.com/app-ads.txt"
+      "domain": "https://www.kwalee.com"
     },
     {
       "name": "Mad Brain Games",
       "seller_id": 1034,
       "seller_type": "Direct",
-      "domain": "https://braingames.net/app-ads.txt"
+      "domain": "https://braingames.net"
     },
     {
       "name": "BoomBit",
@@ -385,13 +385,13 @@
       "name": "Boomhits",
       "seller_id": 1047,
       "seller_type": "Direct",
-      "domain": "https://boomhits.com/app-ads.txt"
+      "domain": "https://boomhits.com"
     },
     {
       "name": "Azur",
       "seller_id": 1049,
       "seller_type": "Direct",
-      "domain": "https://azurgames.com/app-ads.txt"
+      "domain": "https://azurgames.com"
     },
     {
       "name": "Filing.pi",
