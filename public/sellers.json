@@ -398,6 +398,12 @@
       "seller_id": 1057,
       "seller_type": "Direct",
       "domain": "https://samequizy.pl/"
+    },
+    {
+      "seller_id": "1134",
+      "name": "nexverse",
+      "domain": "nexverse.ai",
+      "seller_type": "Intermediary"
     }
   ]
 }
