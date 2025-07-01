@@ -4,397 +4,169 @@
   "version": "1.0",
   "sellers": [
     {
-      "seller_id": "1004",
+      "seller_id": 1004,
       "name": "Supercent",
       "domain": "supercent.io",
       "seller_type": "Publisher"
     },
     {
-      "seller_id": "1101",
+      "seller_id": 1101,
       "name": "Sanket Kathirya (PortInfo)",
       "domain": "https://chotuvptxt.blogspot.com",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1102",
+      "seller_id": 1102,
       "name": "Priyank",
       "domain": "https://riverviewinfosoftinc.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1103",
+      "seller_id": 1103,
       "name": "Priyank 2",
       "domain": "https://websiteofmahadevappstore.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1104",
+      "seller_id": 160886,
       "name": "Diversity Infotech",
       "domain": "https://techllcweb.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1105",
-      "name": "Sagar (Invica Infoteh)",
-      "domain": "https://i918bd728.app-ads-txt.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "1106",
-      "name": "chatme",
-      "domain": "https://chatmeet.space/",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "1123",
-      "name": "Graphical Arena Games",
-      "domain": "https://videotapapp.site/",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "1125",
+      "seller_id": 1125,
       "name": "Array Infotech",
       "domain": "https://arrayinfotech.blogspot.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1126",
+      "seller_id": 1126,
       "name": "My Creation",
       "domain": "https://emicalculatorapps.xyz/",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1127",
-      "name": "Photo Gallery",
-      "domain": "https://buttonapps.space/",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "1128",
-      "name": "CZ Solution",
-      "domain": "https://newapifromdev.com/",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "1129",
+      "seller_id": 1129,
       "name": "anniversary video maker",
       "domain": "https://anniversaryvideomaker.blogspot.com",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "1130",
-      "name": "EMI Calculator",
-      "domain": "https://fusionapps.space",
+      "seller_id": 1003,
+      "name": "Arcadian Labs",
+      "domain": "https://arcadianlab.com/",
       "seller_type": "PUBLISHER"
     },
     {
-      "name": "Arcadian Labs",
-      "seller_id": 1003,
-      "seller_type": "PUBLISHER",
-      "domain": "https://arcadianlab.com/"
-    },
-    {
-      "name": "PSV",
       "seller_id": 1005,
-      "seller_type": "PUBLISHER",
-      "domain": "https://psvgamestudio.com/"
+      "name": "PSV",
+      "domain": "https://psvgamestudio.com/",
+      "seller_type": "PUBLISHER"
     },
     {
-      "name": "Brave Apps",
       "seller_id": 1131,
-      "seller_type": "PUBLISHER",
-      "domain": "https://jasonteaminfo.blogspot.com/ads.txt?m=1"
+      "name": "Brave Apps",
+      "domain": "https://jasonteaminfo.blogspot.com/ads.txt?m=1",
+      "seller_type": "PUBLISHER"
     },
     {
-      "name": "Editor Lab",
       "seller_id": 1132,
-      "seller_type": "PUBLISHER",
-      "domain": "https://vishweshshahsol.blogspot.com/ads.txt?m=1"
+      "name": "Editor Lab",
+      "domain": "https://vishweshshahsol.blogspot.com/ads.txt?m=1",
+      "seller_type": "PUBLISHER"
     },
     {
-      "name": "Ureka_anaplatform",
-      "seller_id": 160715,
-      "seller_type": "PUBLISHER",
-      "domain": "https://thuvienphapluat.vn/"
-    },
-    {
-      "name": "metrojournalonline",
-      "seller_id": 160736,
-      "seller_type": "PUBLISHER",
-      "domain": "https://metrojournalonline.com/"
-    },
-    {
-      "name": "vnxpress",
-      "seller_id": 160708,
-      "seller_type": "PUBLISHER",
-      "domain": "https://vnexpress.net/"
-    },
-    {
-      "name": "tecentech",
-      "seller_id": 160727,
-      "seller_type": "PUBLISHER",
-      "domain": "gameprowess.com"
-    },
-    {
-      "name": "Bhopal Samachar",
-      "seller_id": 160721,
-      "seller_type": "PUBLISHER",
-      "domain": "https://www.bhopalsamachar.com/"
-    },
-    {
-      "name": "CricHeroes",
       "seller_id": 160713,
-      "seller_type": "PUBLISHER",
-      "domain": "https://cricheroes.com/"
+      "name": "CricHeroes",
+      "domain": "https://cricheroes.com/",
+      "seller_type": "PUBLISHER"
     },
     {
-      "name": "Ixigo",
       "seller_id": 160714,
-      "seller_type": "PUBLISHER",
-      "domain": "https://www.ixigo.com/"
+      "name": "Ixigo",
+      "domain": "https://www.ixigo.com/",
+      "seller_type": "PUBLISHER"
     },
     {
-      "name": "Narasi TV",
-      "seller_id": 160722,
-      "seller_type": "PUBLISHER",
-      "domain": "https://narasi.tv/"
-    },
-    {
-      "name": "GeoTimes",
-      "seller_id": 160724,
-      "seller_type": "PUBLISHER",
-      "domain": "https://geotimes.id/"
-    },
-    {
-      "name": "OLX",
-      "seller_id": 160738,
-      "seller_type": "PUBLISHER",
-      "domain": "https://www.olx.in/"
-    },
-    {
-      "name": "Verve Group",
-      "seller_id": 1133,
-      "seller_type": "INTERMEDIARY",
-      "domain": "https://verve.com/"
-    },
-    {
-      "seller_id": "160703",
-      "seller_type": "PUBLISHER",
-      "domain": "reliancegames.com",
-      "name": "Reliance Games"
-    },
-    {
-      "name": "Vasundhara infotech",
-      "seller_id": 1001,
-      "seller_type": "Direct",
-      "domain": "https://vasundharainfotechgames.blogspot.com"
-    },
-    {
-      "name": "Parag 2",
-      "seller_id": 1018,
-      "seller_type": "Direct",
-      "domain": "https://vianaappsolution.blogspot.com"
-    },
-    {
-      "name": "Parag 5",
-      "seller_id": 1021,
-      "seller_type": "Direct",
-      "domain": "https://ftsvideoplayersolution.blogspot.com"
-    },
-    {
-      "name": "Mizo studio",
-      "seller_id": 1022,
-      "seller_type": "Direct",
-      "domain": "https://www.mizostudio.com"
-    },
-    {
-      "name": "Gamovation",
-      "seller_id": 1025,
-      "seller_type": "Direct",
-      "domain": "https://www.gamovation.com/"
-    },
-    {
-      "name": "Miniclip",
-      "seller_id": 1027,
-      "seller_type": "Direct",
-      "domain": "https://miniclip.com/"
-    },
-    {
-      "name": "Funvent",
-      "seller_id": 1032,
-      "seller_type": "Direct",
-      "domain": "https://funvent.cc/"
-    },
-    {
-      "name": "Idea Solution",
-      "seller_id": 1037,
-      "seller_type": "Direct",
-      "domain": "https://www.ideasolutions.it/"
-    },
-    {
-      "name": "MNO GO GAME",
-      "seller_id": 1043,
-      "seller_type": "Direct",
-      "domain": "https://mnogogames.com/"
-    },
-    {
-      "name": "Maglab",
-      "seller_id": 1045,
-      "seller_type": "Direct",
-      "domain": "https://maglab.com.tr/"
-    },
-    {
-      "name": "Playcus",
-      "seller_id": 1046,
-      "seller_type": "Direct",
-      "domain": "https://www.playcus.com/"
-    },
-    {
-      "name": "Flick Games",
-      "seller_id": 1058,
-      "seller_type": "Direct",
-      "domain": "https://www.flick.games/"
-    },
-    {
-      "name": "hashcube",
-      "seller_id": 1060,
-      "seller_type": "Direct",
-      "domain": "https://hashcube.com/"
-    },
-    {
-      "name": "Pixeland",
-      "seller_id": 1067,
-      "seller_type": "Direct",
-      "domain": "https://pxlnd.com/"
-    },
-    {
-      "name": "Tapnation",
-      "seller_id": 1073,
-      "seller_type": "Direct",
-      "domain": "https://www.tap-nation.io/"
-    },
-    {
-      "name": "Tiny Tactics",
-      "seller_id": 1076,
-      "seller_type": "Direct",
-      "domain": "https://www.tinytactics.com/"
-    },
-    {
-      "name": "Whoosa",
-      "seller_id": 1080,
-      "seller_type": "Direct",
-      "domain": "https://www.whossa.com/"
-    },
-    {
-      "name": "Playsimple",
-      "seller_id": 1081,
-      "seller_type": "Direct",
-      "domain": "https://playsimple.in/"
-    },
-    {
-      "name": "Mbit",
-      "seller_id": 1085,
-      "seller_type": "Direct",
-      "domain": "https://www.mbitmusic.in"
-    },
-    {
-      "name": "Reliance Games",
       "seller_id": 160703,
-      "seller_type": "Direct",
-      "domain": "https://www.reliancegames.com/"
+      "name": "Reliance Games",
+      "domain": "reliancegames.com",
+      "seller_type": "PUBLISHER"
     },
     {
-      "name": "Frontlink",
-      "seller_id": 160772,
-      "seller_type": "Direct",
-      "domain": "https://abaldha.blogspot.com"
+      "seller_id": 1001,
+      "name": "Vasundhara infotech",
+      "domain": "https://vasundharainfotechgames.blogspot.com",
+      "seller_type": "Direct"
     },
     {
-      "name": "Homa Games",
-      "seller_id": 1023,
-      "seller_type": "Direct",
-      "domain": "https://homagames.com"
+      "seller_id": 1018,
+      "name": "Parag 2",
+      "domain": "https://vianaappsolution.blogspot.com",
+      "seller_type": "Direct"
     },
     {
-      "name": "Popcore",
-      "seller_id": 1024,
-      "seller_type": "Direct",
-      "domain": "https://www.popcore.com"
+      "seller_id": 1021,
+      "name": "Parag 5",
+      "domain": "https://ftsvideoplayersolution.blogspot.com",
+      "seller_type": "Direct"
     },
     {
-      "name": "Playvalve",
-      "seller_id": 1028,
-      "seller_type": "Direct",
-      "domain": "https://playvalve.com"
+      "seller_id": 1022,
+      "name": "Mizo studio",
+      "domain": "https://www.mizostudio.com",
+      "seller_type": "Direct"
     },
     {
-      "name": "Amanotes",
-      "seller_id": 1030,
-      "seller_type": "Direct",
-      "domain": "https://www.amanotes.com"
+      "seller_id": 1032,
+      "name": "Funvent",
+      "domain": "https://funvent.cc/",
+      "seller_type": "Direct"
     },
     {
-      "name": "Kwalee",
-      "seller_id": 1031,
-      "seller_type": "Direct",
-      "domain": "https://www.kwalee.com"
+      "seller_id": 1037,
+      "name": "Idea Solution",
+      "domain": "https://www.ideasolutions.it/",
+      "seller_type": "Direct"
     },
     {
-      "name": "Mad Brain Games",
+      "seller_id": 160932,
+      "name": "Maglab",
+      "domain": "https://maglab.com.tr/",
+      "seller_type": "Direct"
+    },
+    {
+      "seller_id": 1046,
+      "name": "Playcus",
+      "domain": "https://www.playcus.com/",
+      "seller_type": "Direct"
+    },
+    {
+      "seller_id": 180003,
+      "name": "hashcube",
+      "domain": "https://hashcube.com/",
+      "seller_type": "Direct"
+    },
+    {
+      "seller_id": 1081,
+      "name": "Playsimple",
+      "domain": "https://playsimple.in/",
+      "seller_type": "Direct"
+    },
+    {
+      "seller_id": 160703,
+      "name": "Reliance Games",
+      "domain": "https://www.reliancegames.com/",
+      "seller_type": "Direct"
+    },
+    {
       "seller_id": 1034,
-      "seller_type": "Direct",
-      "domain": "https://braingames.net"
+      "name": "Mad Brain Games",
+      "domain": "https://braingames.net",
+      "seller_type": "Direct"
     },
     {
-      "name": "BoomBit",
-      "seller_id": 1036,
-      "seller_type": "Direct",
-      "domain": "boombit.com"
-    },
-    {
-      "name": "Matchingham Games",
-      "seller_id": 1038,
-      "seller_type": "Direct",
-      "domain": "https://matchingham.gs/"
-    },
-    {
-      "name": "Vira",
-      "seller_id": 1040,
-      "seller_type": "Direct",
-      "domain": "https://www.vira.games/"
-    },
-    {
-      "name": "MixerBox",
-      "seller_id": 1042,
-      "seller_type": "Direct",
-      "domain": "https://www.mixerbox.com/"
-    },
-    {
-      "name": "Cleverside",
-      "seller_id": 1044,
-      "seller_type": "Direct",
-      "domain": "https://www.cleverside.com/"
-    },
-    {
-      "name": "Boomhits",
-      "seller_id": 1047,
-      "seller_type": "Direct",
-      "domain": "https://boomhits.com"
-    },
-    {
-      "name": "Azur",
-      "seller_id": 1049,
-      "seller_type": "Direct",
-      "domain": "https://azurgames.com"
-    },
-    {
-      "name": "Filing.pi",
-      "seller_id": 1057,
-      "seller_type": "Direct",
-      "domain": "https://samequizy.pl/"
-    },
-    {
-      "seller_id": "1134",
+      "seller_id": 1134,
       "name": "nexverse",
       "domain": "nexverse.ai",
       "seller_type": "Intermediary"
