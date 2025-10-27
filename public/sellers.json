@@ -1076,6 +1076,12 @@
       "name": "tu.keenwalking",
       "domain": "yemennownews.com",
       "seller_type": "Publisher"
+    },
+    {
+      "seller_id": 1137,
+      "name": "intellectscoop",
+      "domain": "https://intellectscoop.com/",
+      "seller_type": "Intermediary"
     }
   ]
 }
